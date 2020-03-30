@@ -1,0 +1,93 @@
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+#topbar {
+  padding-top: 4%;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 4%;
+  background: black;
+  z-index: 900;
+}
+
+#topleft {
+  position: absolute;
+  left: 5px;
+}
+
+#topright {
+  position: absolute;
+  right: 5px;
+}
+
+#content {
+  left: 2%;
+  right: 2%;
+  width: 96%;
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  z-index: 850;
+}
+
+#actions {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  background-color: #000;
+  border: 1px ridge;
+  color: #fff;
+  border-color: #fff;
+  width: 100%;
+  margin-bottom: 2px;
+  min-height: 40px;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+button:active {
+  border: 1px inset;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  height: 8%;
+  left: 0px;
+  bottom: 0px;
+  background-color: #111;
+  text-align: center;
+  z-index: 900;
+}
+
+.navButton {
+  width: 19%;
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+  border: 1px ridge;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.activityList {
+  text-align: center;
+}
