@@ -59,6 +59,8 @@ function finishActivity() {
     } else if (mod < 0) {
       newLine(description + " " + mod);
       return (stat += mod);
+    } else {
+      return stat;
     }
   }
   uzuki.vocal = modifyStat(uzuki.vocal, modVocal, "보컬 능력치");
