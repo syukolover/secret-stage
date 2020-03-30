@@ -58,6 +58,7 @@ button {
 
 button:active {
   border: 1px inset;
+  background-color: #333;
 }
 
 #navbar {
